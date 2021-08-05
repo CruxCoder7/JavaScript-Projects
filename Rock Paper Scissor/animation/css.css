@@ -1,0 +1,65 @@
+
+.text-container {
+    --duration: 2.4s;
+
+    padding: .8rem 1.6rem;
+    user-select: none;
+    position: relative;
+}
+
+.text-container::before {
+    content: '';
+    display: block;
+
+    height: 100%;
+    width: 0;
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: #FF4754;
+
+    animation: before var(--duration) ease;
+
+}
+
+.text-container h1{
+    animation: visibility var(--duration) ease;
+    margin-left: 300px;
+}
+
+@keyframes visibility {
+    from {
+        visibility: hidden;
+    }
+
+    30% {
+        visibility: hidden;
+    }
+
+    70% {
+        visibility: visible;
+    }
+}
+
+@keyframes before {
+    from {
+        width: 0;
+        opacity: 1;
+    }
+
+    30% {
+        width: 50%;
+    }
+
+    70% {
+        width: 50%;
+    }
+
+    to {
+        width: 0;
+        opacity: 1;
+    }
+}

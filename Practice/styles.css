@@ -1,0 +1,457 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#item :hover {
+    border-bottom: 2px solid #fff;
+
+}
+
+section {
+    width:100%;
+    margin-top: 5px;
+    min-height: 50vh;
+    position: relative;
+}
+
+.active{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#signup-btn {
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+ 
+}
+
+#signup-btn:hover{
+    border: 1px solid #ffffff;
+    padding: 3px;
+    transform: translateY(-5px) translateX(4px);
+}
+
+.container {
+    position: absolute;
+    top:15px;
+    background-color: rgb(2, 186, 218);
+    width:60%;
+    margin-left: 40px;
+    font-size: 30px;
+    min-height: 50vh;
+    color: #ffffff;
+    box-shadow: 8px 8px 5px #444;
+
+}
+
+.navs  {
+    border-bottom: 2px solid #fff;
+    height: 100px;
+    background-image: linear-gradient(to right, #2193b0,#6dd5ed);
+
+}
+
+.sidebar {
+    position: absolute;
+    top:15px;
+    right: 0;
+    background-color: white;
+    width: 25%;
+    margin-right: 40px;
+    font-size: 20px;
+    min-height: 40vh;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow: 8px 8px 5px #444;
+    color: black;
+    
+}
+
+#message {
+    margin-top: 30px;
+    margin-left: 28px;
+    background-color: white;
+    width: 80%;
+    color: black;
+    text-align: center;
+    
+
+}
+
+.navs ul{
+    display: inline-flex;
+    margin: 50px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navs ul li {
+    list-style: none;
+    margin: -10px 25px;
+    cursor: pointer;
+    
+}
+
+.navs img{
+    width: 70px;
+    margin-top: -30px;
+    filter: drop-shadow(0px 2px 3px black);
+
+}
+
+.navs a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container h3{
+    margin-left: 30px;
+}
+
+.container p{
+    padding: 10px;
+    font-size: medium;   
+    margin: 20px 25px ; 
+}
+
+form  input {
+    outline: none;
+    padding-top: 10px;
+    margin-top: 15px;
+    background-color:#fff;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+form input:focus{
+    box-shadow: 0 0 10px #ffffff;
+}
+
+form input::placeholder{
+    font-size: 20px;
+    font-weight:500 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    padding-top: 5px;
+    background-color:rgb(2, 186, 218);
+    outline: none;
+    border:none;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+button:hover{
+    background-color: rgb(29, 159, 182);
+
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+form #center{
+    margin: 0 auto;
+    
+}
+#two {
+    width: 100%;
+    min-height:50vh;   
+    position: relative;
+    margin-top:60px;    
+}
+
+#two h3{
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+#two p{
+    margin-left: 70px;
+    padding: 10px;
+    position: relative;
+
+}
+
+.container-two{
+    width: 48%;
+    background-color: rgb(34, 29, 29);
+    color:#ffffff;
+    min-height:40vh;
+    position: absolute;
+
+}
+
+
+.container-two:hover{
+    box-shadow: 8px 8px 5px #444;
+
+}
+
+.division {
+    min-height: 40vh;
+    width: 48%;
+    background-color: rgb(34, 29, 29);
+    color:#ffffff;
+    position: absolute;
+    top:0;
+    right:0
+    
+}
+
+.division:hover{
+    box-shadow: -8px 8px 5px #444 ;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+
+
+
+/* =======================================================ABOUT PAGE=============================================================== */
+.main-wrapper{
+    width: 100%;
+    background-color: rgb(145, 206, 226);
+    position: absolute;
+    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: lightblue;
+    margin: 100px auto;
+    margin-top: 25px;
+    width: 50%;
+    height: 50vh;
+    position: relative;
+}
+
+.image-wrapper{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:26vh;
+    left:center;
+}
+
+.image-wrapper img{
+    width: 225px;
+    animation: drop  1.5s ease ;
+    filter: drop-shadow(0px 5px 4px black);
+}
+
+.content{
+    border: 2px solid #fff;
+    width: 50%;
+    position: relative;
+    margin: 150px auto;
+    margin-top: 200px;
+    padding: 10px;
+    font: 1.3em sans-serif;
+}
+
+.content p{
+    background-color:lightblue ;
+    color: #565867;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =======================================================SERVICES PAGE=============================================================== */
+
+.main{
+    min-height: 100vh;
+    display: flex; justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
+}
+
+.main section{width: 100%;}
+
+.containerr{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.services h1{
+    text-align: center;
+    color: #565656;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.services h1::before{
+    content:"";
+    position: absolute;
+    width: 20%; height: 2px;
+    background-color: #565656;
+    bottom: 0; left: 50%; transform: translateX(-50%);
+}
+
+.services h1::after{
+    content:"";
+    position: absolute;
+    width: 10px; height: 10px;
+    background-color: #565656;
+    bottom: 0; left: 50%;
+    transform: translate(-50%,50%) rotate(45deg);
+}
+.services{
+    margin-top: -600px;
+}
+.service-cards-wrapper{
+    display: flex; justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.service-card{
+    flex: 1 1 250px;
+    max-width: 250px;
+    margin: 20px 15px;
+    text-align: center;
+    background-color: #fff;
+    color: #565656;
+    padding: 50px 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.service-card .icon-container{
+    width: 40px; height: 40px;
+    margin: 0 auto;
+    /* background-color: rgba(0,0,0,0.8); */
+    color: #fff;
+    display: flex; justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translate(-50%,50%) rotate(45deg);
+}
+
+.service-card .icon-container i{transform: rotate(-45deg);}
+
+.service-card h2{font-size: 20px;}
+
+.service-card p{
+    font-size: 12px;
+    margin:15px 0 25px;
+    line-height: 1.6;
+}
+
+.service-card button{
+    padding: 10px 30px;
+    background-color: transparent;
+    border: none; outline: none;
+    color: #fff;
+    background-color: rgb(0, 0, 0,0.8);
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.service-card button:hover{
+    color: #565656;
+    background-color: transparent;
+    border: 1px solid #565656;
+}
+
+@media screen and (max-width:768px) {
+
+    body{
+        height: 250vh;
+    }
+    .navs{
+        width: 400px;
+    }
+    #signup-btn{
+        display: none;
+    }
+    .sidebar{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navs img{margin-left: -50px;}
+    .navs ul li{
+        font-size: 0.9rem;  
+        margin: -10px 14px;
+    }
+    .active{font-size: 0.9rem;}
+    .container{
+        margin-top: 300px;
+        min-width: 100%;
+        margin-left: 0px;
+    }
+    .content{ width: 90%;}
+    .wrapper{width: 80%;}
+    #two{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(400px);
+    }
+    .container-two, .division{
+        position: relative;
+        justify-content: center;
+        align-self: center;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .main-wrapper{
+        width: 100%;
+    }
+}

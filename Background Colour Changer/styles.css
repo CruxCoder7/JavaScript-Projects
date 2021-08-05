@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color:white;
+    border: 3px solid black;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-transform: capitalize;
+    background-color: slategray;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.6);
+}
